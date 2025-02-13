@@ -45,4 +45,4 @@ curl --location 'http://127.0.0.1/api/home' \
 --header 'Authorization: Bearer 3|XF78VVtQUSLa2sFlKKsM9tWzG445CAUFwwc0Jccq0af87df8'
 ```
 
-![img_1.png](img_1.png)
+![img_3.png](img_3.png)
