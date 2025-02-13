@@ -28,7 +28,7 @@ class UserLoginController extends Controller
             [
                 'status' => true,
                 'data' => [
-                    'token' => Auth::user()->createToken($request->validated('email'))->plainTextToken
+                    'token' => \auth()->user()->createToken($request->validated('email'))->plainTextToken
                 ]
             ],
             Response::HTTP_OK
