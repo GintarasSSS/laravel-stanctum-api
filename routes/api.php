@@ -21,5 +21,5 @@ Route::controller(UserLoginController::class)->group(function () {
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [UserLoginController::class, 'logout'])->name('logout');
-    Route::get('/home', fn() => view('welcome'))->name('home');
+    Route::get('/home', fn() => view('index'))->name('home');
 });
